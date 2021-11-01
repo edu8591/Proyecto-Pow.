@@ -124,6 +124,13 @@ nav .direction-links {
 	font-size: 14px;
 	margin: 0;
 }
+
+.background {
+	background-color: #f7f7f7;
+}
+.background p {
+	margin: 0;
+}
 /* ends code for cheackout box */
 
 /* here start the checkout button and continue button */
@@ -135,7 +142,6 @@ nav .direction-links {
 	color: white;
 	background-color: black;
 	text-decoration: none;
-	margin-bottom: 15px;
 	border-radius: 2px;
 }
 .checkout-btn:hover {
@@ -168,10 +174,21 @@ nav .direction-links {
 /* here ends the checkout button and continue button */
 
 /* starts product card */
-
-/* ends product card */
-
 .qty-selector {
 	height: 45px;
 	width: 115px;
 }
+.secondary-text {
+	color: #c8c8c8;
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+}
+
+/* ends product card */
+
+/* footer starts */
+footer {
+	min-height: 89px;
+}
+/* footer ends */
