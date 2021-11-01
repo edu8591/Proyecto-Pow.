@@ -192,3 +192,26 @@ footer {
 	min-height: 89px;
 }
 /* footer ends */
+
+.btn:focus,
+.btn:active {
+	outline: none !important;
+	box-shadow: none;
+}
+
+.facebook:hover {
+	color: #3a5794 !important;
+}
+
+.instagram:hover {
+	color: #fb3958 !important;
+}
+
+.btn-text:hover {
+	text-decoration: underline !important;
+	font-weight: 500 !important;
+}
+
+.btn-icon:hover {
+	font-size: 20px !important;
+}
